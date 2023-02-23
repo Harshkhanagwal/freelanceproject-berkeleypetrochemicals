@@ -1,0 +1,50 @@
+.herosec{
+    background-image: url(https://images.unsplash.com/photo-1593812741162-83cfb9e5660e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+.inner-hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 45, 135, 0.5);
+}
+.hero-txt-sec{
+    width: 100%;
+    margin: 0 20px;
+}
+.hero-head{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.smal-h{
+    font-size: 3vw;
+}
+
+@media screen and (max-width: 766px) {
+    .hero-head{
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .hero-head{
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .herosec{
+        height: 120px;
+    }
+}
+@media screen and (max-width: 316px) {
+    .herosec{
+        height: 80px;
+    }
+}

@@ -1,0 +1,89 @@
+footer {
+    background-color: #fff;
+    min-height: 240px;
+    border-top: 1px solid #DADADA;
+}
+
+.heading-f {
+    font-size: 24px;
+    color: #002F87;
+}
+
+.innerFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    width: 100%;
+}
+
+.bottomBar {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 778px) {
+    .innerFooter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .txt-area-f {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .logo-area-f {
+        margin-top: 30px;
+    }
+}
+    
+@media screen and (max-width: 400px) {
+    .logo-area-f{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        /* margin-top: 30px; */
+    }
+
+    .mr-b{
+        margin-bottom: 20px;
+    }
+    .wmr-r{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 390px) {
+    .heading-f{
+        font-size: 18px;
+    }
+    .clm-c{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 314px) {
+    .contact-d p {
+        font-size: 12px;
+    }
+    .logo-area-f a img{
+        height: 50px;
+    }
+    .mr-b{
+        margin-bottom: 5px;
+    }
+    .bottomBar{
+        font-size: 12px;
+    }
+}
